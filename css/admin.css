@@ -1,0 +1,66 @@
+
+.dashboard-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-5px);
+}
+
+.dashboard-card .inner{
+    padding:20px;
+}
+
+.dashboard-card .icon{
+    position:absolute;
+    right:20px;
+    top:15px;
+    font-size:55px;
+    opacity:.25;
+}
+
+.dashboard-card h3{
+    font-size:30px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.dashboard-card p{
+    margin:0;
+    font-size:15px;
+}
+
+.status-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 0;
+    border-bottom:1px solid #eee;
+}
+
+.status-item:last-child{
+    border-bottom:none;
+}
+
+.chart-card,
+.status-card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.chart-card .card-header,
+.status-card .card-header{
+    background:#fff;
+    border-bottom:1px solid #eee;
+    font-weight:600;
+}
+
+.badge-count{
+    font-size:14px;
+    min-width:40px;
+}
